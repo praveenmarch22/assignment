@@ -25,7 +25,7 @@ const Award = () => {
         alt="award img"
         className="award-taking"
       />
-      <p style={{ width: 920 }} className="about-award">
+      <p className="about-award">
         Government of India has awarded the
         <span style={{ fontWeight: "bold" }}>
           "National Energy Conservation Award 2018"

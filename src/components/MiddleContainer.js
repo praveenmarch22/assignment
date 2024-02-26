@@ -3,7 +3,7 @@ import React from "react";
 const MiddleContainer = () => {
   return (
     <div className="middle-container">
-      <p style={{ fontWeight: "500", fontSize: "16px" }}>
+      <p className="middle-text">
         INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING
         IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE
         NATION.
@@ -13,7 +13,7 @@ const MiddleContainer = () => {
         alt="tools img"
         className="tools-img"
       />
-      <p style={{ fontWeight: "500", fontSize: "16px" }}>
+      <p className="middle-text">
         Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables -
         Solar Systems - Motors
       </p>
