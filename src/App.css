@@ -121,6 +121,9 @@ ul > li {
 }
 
 @media screen and (max-width: 576px) {
+  .logo-img {
+    width: 50%;
+  }
   .first-container {
     flex-direction: column;
   }
