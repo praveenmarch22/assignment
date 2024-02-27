@@ -8,7 +8,7 @@ const FirstContainer = () => {
         <img
           className="award-img"
           src={process.env.PUBLIC_URL + "/Images/1.png"}
-          alt="Award image"
+          alt="Award"
         />
       </div>
       <Award />
