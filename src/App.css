@@ -11,13 +11,13 @@
   margin-right: auto;
   margin-left: auto;
 }
-.award-img {
-  width: 500px;
-}
 
 .first-container {
   display: flex;
   width: 100%;
+}
+.award-img {
+  width: 80%;
 }
 
 .award-container {
@@ -25,14 +25,14 @@
   text-align: left;
 }
 .award-taking {
-  width: 900px;
+  width: 100%;
 }
 .heading {
   font-size: medium;
   font-weight: bolder;
 }
 ul {
-  width: 850px;
+  width: 95%;
 }
 
 ul > li {
@@ -42,11 +42,11 @@ ul > li {
 .about-award {
   font-size: medium;
   font-weight: 500;
-  width: 920px;
+  width: 93%;
 }
 
 .middle-container {
-  width: 95%;
+  width: 93%;
 }
 
 .tools-img {
@@ -95,17 +95,39 @@ ul > li {
   font-size: 16px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 970px) {
   .award-taking {
     width: 700px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .first-container {
     flex-direction: column;
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
+  .first-container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 704px) {
+  .first-container {
+    flex-direction: column;
+  }
   .award-taking {
-    width: 500px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .first-container {
+    flex-direction: column;
+  }
+  .footer {
+    flex-grow: 1;
+  }
+  .footer-content {
+    flex-direction: column;
   }
 }
